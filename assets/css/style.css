@@ -1,0 +1,289 @@
+/* Reseteo*/
+* {
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    word-break: break-word;
+}
+
+/* --- */
+/* Custom Fonts */
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('assets/fonts/HelveticaNeue.ttc');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Título #1 */
+@font-face {
+    font-family: 'HurmeGeometricSans3_Black';
+    src: url('assets/fonts/HurmeGeometricSans3_Black.otf');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Título #2*/
+@font-face {
+    font-family: 'Qualy_Bold';
+    src: url('assets/fonts/Qualy_Bold.ttf');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Logo #1*/
+@font-face {
+    font-family: 'JosefinSans_VariableFont_wght';
+    src: url('assets/fonts/JosefinSans_VariableFont_wght.ttf');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Logo #2*/
+@font-face {
+    font-family: 'LingLengLang';
+    src: url('assets/fonts/LingLengLang.otf');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* --- */
+/* Etiquetas HTML */
+body {
+    position: relative;
+    overflow-x: hidden;
+    font-size: 20px;
+    font-size: 1em;
+    font-family: Helvetica, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    margin: 0 !important;
+    overflow-x: hidden;
+}
+
+/* --- */
+.font_logo {
+    /*font-family: 'JosefinSans_VariableFont_wght', 'Helvetica';*/
+    font-family: 'LingLengLang', 'Helvetica';
+    /* font-family: 'Hanalei Fill', cursive; */
+}
+
+.titulo_pagina {
+    /* font-family: 'HurmeGeometricSans3_Black', 'Helvetica'; */
+    font-family: 'Qualy_Bold', 'Helvetica';
+}
+
+/* *** */
+/* Maquetación */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.img-fluid {
+    width: 100%;
+    max-width: 100%;
+}
+
+.d-none {
+    display: none;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-flex {
+    display: flex;
+}
+
+
+.col-12,
+.col-10,
+.col-8,
+.col-6,
+.col-4,
+.col-3,
+.col-2,
+.col {
+    padding: 0 15px;
+}
+
+.col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.col-10 {
+    flex: 0 0 80%;
+    max-width: 80%;
+}
+.col-8 {
+    flex: 0 0 66.66%;
+    max-width: 66.66%;
+}
+
+.col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.col-4 {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+}
+
+.col-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.col-2 {
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+
+.col {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+}
+
+/* Media query celular grande */
+@media (min-width: 578px) {
+    .d-sm-none {
+        display: none;
+    }
+
+    .d-sm-block {
+        display: block;
+    }
+
+    .d-sm-flex {
+        display: flex;
+    }
+    .col-sm-10 {
+        flex: 0 0 80%;
+        max-width: 80%;
+    }
+    .col-sm-8 {
+        flex: 0 0 66.66%;
+        max-width: 66.66%;
+    }
+
+    .col-sm-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .col-sm-4 {
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    }
+
+    .col-sm-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+    .col-sm-2 {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+
+/* Media query tablet */
+@media (min-width: 768px) {
+    .d-md-none {
+        display: none;
+    }
+
+    .d-md-block {
+        display: block;
+    }
+
+    .d-md-flex {
+        display: flex;
+    }
+    .col-md-10 {
+        flex: 0 0 80%;
+        max-width: 80%;
+    }
+    .col-md-8 {
+        flex: 0 0 66.66%;
+        max-width: 66.66%;
+    }
+
+    .col-md-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .col-md-4 {
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    }
+
+    .col-md-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+    .col-md-2 {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+
+/* Media query laptop-mini */
+@media (min-width: 992px) {
+    .d-lg-none {
+        display: none;
+    }
+
+    .d-lg-block {
+        display: block;
+    }
+
+    .d-lg-flex {
+        display: flex;
+    }
+    .col-lg-10 {
+        flex: 0 0 80%;
+        max-width: 80%;
+    }
+    .col-lg-8 {
+        flex: 0 0 66.66%;
+        max-width: 66.66%;
+    }
+
+    .col-lg-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .col-lg-4 {
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    }
+
+    .col-lg-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+    .col-lg-2 {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+
+/* --- */

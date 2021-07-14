@@ -1,0 +1,163 @@
+#contacto .ajax-loader {
+    display: none;
+}
+/* titulo_descripcion_shortcode */
+#contacto .contacto .row_contacto .titulo_descripcion_shortcode {
+    margin: 0 auto;
+    
+    color: #fff;
+
+}
+/* titulo_contacto */
+#contacto .contacto .row_contacto .titulo_contacto {
+    font-size: 1.25em;
+    margin:.5em;
+}
+@media (max-width: 1440px) {
+    #contacto .contacto .row_contacto .titulo_contacto {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 992px) {
+    #contacto .contacto .row_contacto .titulo_contacto {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 768px) {
+    #contacto .contacto .row_contacto .titulo_contacto {
+        font-size: .75em;
+    }
+}
+
+@media (max-width: 578px) {
+    #contacto .contacto .row_contacto .titulo_contacto {
+        font-size: .75em;
+    }
+}
+/* descripcion_contacto */
+#contacto .contacto .row_contacto .descripcion_contacto {
+    font-size: 1.5em;;
+    margin: .5em ;
+}
+@media (max-width: 1440px) {
+    #contacto .contacto .row_contacto .descripcion_contacto {
+        font-size: 1.25em;
+    }
+}
+
+@media (max-width: 992px) {
+    #contacto .contacto .row_contacto .descripcion_contacto {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 768px) {
+    #contacto .contacto .row_contacto .descripcion_contacto {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 578px) {
+    #contacto .contacto .row_contacto .descripcion_contacto {
+        font-size: .75em;
+    }
+}
+/* contacto_contacto */
+#contacto .contacto .row_contacto .contacto_contacto .row_contacto_contacto {}
+
+#contacto .shortcode_formulario_contacto .row_shortcode_formulario_contacto input {
+    max-width: 7.5em;
+    font-size: 1.5em;
+    padding: .5em;
+    border-radius: 5%;
+    margin: .5em;
+}
+
+#contacto .shortcode_formulario_contacto .row_shortcode_formulario_contacto input::placeholder {
+    color: #f39619;
+}
+
+#contacto .shortcode_formulario_contacto .row_shortcode_formulario_contacto input[type="submit"] {
+    max-width: 7.5em;
+    font-size: 1.5em;
+    padding: .5em;
+    border-radius: 5%;
+    margin: .5em;
+    background-color: #cb3517;
+    color: #fff;
+}
+/* *** */
+/* imagenes_redes_sociales */
+#contacto .contacto .row_contacto .imagenes_redes_sociales {
+    position: relative;
+}
+#contacto .contacto .row_contacto .imagenes_redes_sociales .row_imagenes_redes_sociales {
+    
+}
+#contacto .contacto .row_contacto .imagenes_redes_sociales .row_imagenes_redes_sociales .imagen_contacto {
+    
+}
+@media (max-width: 1440px) {
+    #contacto .contacto .row_contacto .imagenes_redes_sociales .row_imagenes_redes_sociales .imagen_contacto {
+    }
+}
+
+@media (max-width: 992px) {
+    #contacto .contacto .row_contacto .imagenes_redes_sociales .row_imagenes_redes_sociales .imagen_contacto {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    #contacto .contacto .row_contacto .imagenes_redes_sociales .row_imagenes_redes_sociales .imagen_contacto {
+        display: none;
+    }
+}
+
+@media (max-width: 578px) {
+    #contacto .contacto .row_contacto .imagenes_redes_sociales .row_imagenes_redes_sociales .imagen_contacto {
+        display: none;
+    }
+}
+#contacto .contacto .row_contacto .imagenes_redes_sociales .row_imagenes_redes_sociales .imagen_contacto .row_imagen_contacto {}
+
+/* redes_sociales_contacto */
+#contacto .contacto .row_contacto .redes_sociales_contacto {
+    
+}
+#contacto .contacto .row_contacto .redes_sociales_contacto .row_redes_sociales_contacto {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+@media (max-width: 992px) {
+    #contacto .contacto .row_contacto .redes_sociales_contacto .row_redes_sociales_contacto {
+        position: relative;
+    }
+}
+
+@media (max-width: 768px) {
+    #contacto .contacto .row_contacto .redes_sociales_contacto .row_redes_sociales_contacto {
+        position: relative;
+    }
+}
+
+@media (max-width: 578px) {
+    #contacto .contacto .row_contacto .redes_sociales_contacto .row_redes_sociales_contacto {
+        position: relative;
+    }
+}
+#contacto .contacto .row_contacto .redes_sociales_contacto .row_redes_sociales_contacto .red_social_contacto {
+    display: inline-block;
+}
+
+
+#contacto .contacto .row_contacto .redes_sociales_contacto .row_redes_sociales_contacto .red_social_contacto img {
+    width: 52px;
+    height: 52px;
+    margin: .5em;
+    padding: .5em;
+}
