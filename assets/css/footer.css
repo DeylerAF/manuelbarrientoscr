@@ -1,0 +1,9 @@
+#footer {
+    background: orange;
+}
+
+#footer .copyright {
+    text-align: center;
+    color: black;
+    padding: 1em 15px;
+}
